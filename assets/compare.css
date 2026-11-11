@@ -1,0 +1,49 @@
+:root {
+  --bg: #121212; --panel: #1c1c1c; --line: #333; --text: #e6e6e6; --muted: #9a9a9a; --accent: #6aa9ff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, "Segoe UI", sans-serif; }
+a { color: var(--accent); }
+main { max-width: 1680px; margin: 0 auto; padding: 20px 16px 40px; }
+header p { color: var(--muted); max-width: 900px; margin: 4px 0 0; }
+h1 { font-size: 24px; font-weight: 600; margin: 6px 0 0; }
+
+/* scene tabs and controls */
+#views, .controls { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: 14px; }
+button, select {
+  background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px;
+  padding: 6px 12px; font: inherit; font-size: 14px; cursor: pointer;
+}
+button:hover, select:hover { border-color: #555; }
+#views button.on { background: #2b3b52; border-color: var(--accent); }
+.controls label { color: var(--muted); font-size: 14px; margin-left: 6px; }
+.controls .spacer { flex: 1; }
+
+/* the comparison itself */
+#wrap {
+  position: relative; margin-top: 12px; width: 100%; aspect-ratio: 16 / 9; max-height: 82vh;
+  border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: #000;
+}
+#viewer { position: absolute; inset: 0; }
+#wrap:fullscreen, #wrap.fullpage { aspect-ratio: auto; max-height: none; width: 100vw; height: 100vh; border: 0; border-radius: 0; margin: 0; }
+#wrap.fullpage { position: fixed; inset: 0; z-index: 100; }
+body:has(#wrap.fullpage) { overflow: hidden; }
+#exitfull { display: none; position: absolute; right: 10px; bottom: 10px; z-index: 3; background: rgba(0,0,0,.6); }
+#wrap:fullscreen #exitfull, #wrap.fullpage #exitfull { display: block; }
+#line { position: absolute; top: 0; bottom: 0; width: 2px; margin-left: -1px; background: rgba(255,255,255,.8); pointer-events: none; }
+.lab {
+  position: absolute; top: 10px; padding: 4px 10px; background: rgba(0,0,0,.6); color: #fff;
+  font-size: 14px; border-radius: 4px; pointer-events: none; z-index: 2;
+}
+#labA { left: 10px; }
+#labB { right: 10px; }
+[hidden] { display: none !important; }
+
+.hint { color: var(--muted); font-size: 13px; margin-top: 10px; }
+kbd { border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; font-size: 12px; }
+
+@media (max-width: 640px) {
+  h1 { font-size: 20px; }
+  .lab { font-size: 12px; top: 6px; }
+}

@@ -1,0 +1,1967 @@
+{
+ "title": "slowLandscapeLODGen",
+ "comparisons": [
+  {
+   "slug": "color-map-resolution",
+   "title": "Color map resolution",
+   "description": "Color map size per quad, from 512 to 16384, with tes4ll's color maps at 1024, 2048 and 4096 for reference.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      4,
+      6
+     ],
+     "images": [
+      {
+       "label": "512",
+       "src": "images/color-map-resolution/hills/1.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/color-map-resolution/hills/2.jpg"
+      },
+      {
+       "label": "tes4ll 1024",
+       "src": "images/color-map-resolution/hills/3.jpg"
+      },
+      {
+       "label": "2048",
+       "src": "images/color-map-resolution/hills/4.jpg"
+      },
+      {
+       "label": "tes4ll 2048",
+       "src": "images/color-map-resolution/hills/5.jpg"
+      },
+      {
+       "label": "4096 (default)",
+       "src": "images/color-map-resolution/hills/6.jpg"
+      },
+      {
+       "label": "tes4ll 4096",
+       "src": "images/color-map-resolution/hills/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/color-map-resolution/hills/8.jpg"
+      },
+      {
+       "label": "16384",
+       "src": "images/color-map-resolution/hills/9.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      4,
+      6
+     ],
+     "images": [
+      {
+       "label": "512",
+       "src": "images/color-map-resolution/imperial-city/1.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/color-map-resolution/imperial-city/2.jpg"
+      },
+      {
+       "label": "tes4ll 1024",
+       "src": "images/color-map-resolution/imperial-city/3.jpg"
+      },
+      {
+       "label": "2048",
+       "src": "images/color-map-resolution/imperial-city/4.jpg"
+      },
+      {
+       "label": "tes4ll 2048",
+       "src": "images/color-map-resolution/imperial-city/5.jpg"
+      },
+      {
+       "label": "4096 (default)",
+       "src": "images/color-map-resolution/imperial-city/6.jpg"
+      },
+      {
+       "label": "tes4ll 4096",
+       "src": "images/color-map-resolution/imperial-city/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/color-map-resolution/imperial-city/8.jpg"
+      },
+      {
+       "label": "16384",
+       "src": "images/color-map-resolution/imperial-city/9.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      4,
+      6
+     ],
+     "images": [
+      {
+       "label": "512",
+       "src": "images/color-map-resolution/river/1.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/color-map-resolution/river/2.jpg"
+      },
+      {
+       "label": "tes4ll 1024",
+       "src": "images/color-map-resolution/river/3.jpg"
+      },
+      {
+       "label": "2048",
+       "src": "images/color-map-resolution/river/4.jpg"
+      },
+      {
+       "label": "tes4ll 2048",
+       "src": "images/color-map-resolution/river/5.jpg"
+      },
+      {
+       "label": "4096 (default)",
+       "src": "images/color-map-resolution/river/6.jpg"
+      },
+      {
+       "label": "tes4ll 4096",
+       "src": "images/color-map-resolution/river/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/color-map-resolution/river/8.jpg"
+      },
+      {
+       "label": "16384",
+       "src": "images/color-map-resolution/river/9.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      4,
+      6
+     ],
+     "images": [
+      {
+       "label": "512",
+       "src": "images/color-map-resolution/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/color-map-resolution/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "tes4ll 1024",
+       "src": "images/color-map-resolution/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "2048",
+       "src": "images/color-map-resolution/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "tes4ll 2048",
+       "src": "images/color-map-resolution/snowy-mountain/5.jpg"
+      },
+      {
+       "label": "4096 (default)",
+       "src": "images/color-map-resolution/snowy-mountain/6.jpg"
+      },
+      {
+       "label": "tes4ll 4096",
+       "src": "images/color-map-resolution/snowy-mountain/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/color-map-resolution/snowy-mountain/8.jpg"
+      },
+      {
+       "label": "16384",
+       "src": "images/color-map-resolution/snowy-mountain/9.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      4,
+      6
+     ],
+     "images": [
+      {
+       "label": "512",
+       "src": "images/color-map-resolution/sunset-hills/1.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/color-map-resolution/sunset-hills/2.jpg"
+      },
+      {
+       "label": "tes4ll 1024",
+       "src": "images/color-map-resolution/sunset-hills/3.jpg"
+      },
+      {
+       "label": "2048",
+       "src": "images/color-map-resolution/sunset-hills/4.jpg"
+      },
+      {
+       "label": "tes4ll 2048",
+       "src": "images/color-map-resolution/sunset-hills/5.jpg"
+      },
+      {
+       "label": "4096 (default)",
+       "src": "images/color-map-resolution/sunset-hills/6.jpg"
+      },
+      {
+       "label": "tes4ll 4096",
+       "src": "images/color-map-resolution/sunset-hills/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/color-map-resolution/sunset-hills/8.jpg"
+      },
+      {
+       "label": "16384",
+       "src": "images/color-map-resolution/sunset-hills/9.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "render-at",
+   "title": "Render at",
+   "description": "Color maps rendered at their own size or larger and then downscaled. Rendering larger gives smoother transitions between textures.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      4,
+      5
+     ],
+     "images": [
+      {
+       "label": "2048 rendered at 2048",
+       "src": "images/render-at/hills/1.jpg"
+      },
+      {
+       "label": "2048 rendered at 4096",
+       "src": "images/render-at/hills/2.jpg"
+      },
+      {
+       "label": "2048 rendered at 8192",
+       "src": "images/render-at/hills/3.jpg"
+      },
+      {
+       "label": "4096 rendered at 4096 (default)",
+       "src": "images/render-at/hills/4.jpg"
+      },
+      {
+       "label": "4096 rendered at 8192",
+       "src": "images/render-at/hills/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      4,
+      5
+     ],
+     "images": [
+      {
+       "label": "2048 rendered at 2048",
+       "src": "images/render-at/imperial-city/1.jpg"
+      },
+      {
+       "label": "2048 rendered at 4096",
+       "src": "images/render-at/imperial-city/2.jpg"
+      },
+      {
+       "label": "2048 rendered at 8192",
+       "src": "images/render-at/imperial-city/3.jpg"
+      },
+      {
+       "label": "4096 rendered at 4096 (default)",
+       "src": "images/render-at/imperial-city/4.jpg"
+      },
+      {
+       "label": "4096 rendered at 8192",
+       "src": "images/render-at/imperial-city/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      4,
+      5
+     ],
+     "images": [
+      {
+       "label": "2048 rendered at 2048",
+       "src": "images/render-at/river/1.jpg"
+      },
+      {
+       "label": "2048 rendered at 4096",
+       "src": "images/render-at/river/2.jpg"
+      },
+      {
+       "label": "2048 rendered at 8192",
+       "src": "images/render-at/river/3.jpg"
+      },
+      {
+       "label": "4096 rendered at 4096 (default)",
+       "src": "images/render-at/river/4.jpg"
+      },
+      {
+       "label": "4096 rendered at 8192",
+       "src": "images/render-at/river/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      4,
+      5
+     ],
+     "images": [
+      {
+       "label": "2048 rendered at 2048",
+       "src": "images/render-at/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "2048 rendered at 4096",
+       "src": "images/render-at/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "2048 rendered at 8192",
+       "src": "images/render-at/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "4096 rendered at 4096 (default)",
+       "src": "images/render-at/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "4096 rendered at 8192",
+       "src": "images/render-at/snowy-mountain/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      4,
+      5
+     ],
+     "images": [
+      {
+       "label": "2048 rendered at 2048",
+       "src": "images/render-at/sunset-hills/1.jpg"
+      },
+      {
+       "label": "2048 rendered at 4096",
+       "src": "images/render-at/sunset-hills/2.jpg"
+      },
+      {
+       "label": "2048 rendered at 8192",
+       "src": "images/render-at/sunset-hills/3.jpg"
+      },
+      {
+       "label": "4096 rendered at 4096 (default)",
+       "src": "images/render-at/sunset-hills/4.jpg"
+      },
+      {
+       "label": "4096 rendered at 8192",
+       "src": "images/render-at/sunset-hills/5.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blending-falloff",
+   "title": "Blending falloff",
+   "description": "How much neighbouring texture samples blend into each other (color map 4096). Lower is smoother and blurrier, higher is sharper and blockier.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      4,
+      7
+     ],
+     "images": [
+      {
+       "label": "1",
+       "src": "images/blending-falloff/hills/1.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/blending-falloff/hills/2.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/blending-falloff/hills/3.jpg"
+      },
+      {
+       "label": "2.5 (default)",
+       "src": "images/blending-falloff/hills/4.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/blending-falloff/hills/5.jpg"
+      },
+      {
+       "label": "4",
+       "src": "images/blending-falloff/hills/6.jpg"
+      },
+      {
+       "label": "5",
+       "src": "images/blending-falloff/hills/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      4,
+      7
+     ],
+     "images": [
+      {
+       "label": "1",
+       "src": "images/blending-falloff/imperial-city/1.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/blending-falloff/imperial-city/2.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/blending-falloff/imperial-city/3.jpg"
+      },
+      {
+       "label": "2.5 (default)",
+       "src": "images/blending-falloff/imperial-city/4.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/blending-falloff/imperial-city/5.jpg"
+      },
+      {
+       "label": "4",
+       "src": "images/blending-falloff/imperial-city/6.jpg"
+      },
+      {
+       "label": "5",
+       "src": "images/blending-falloff/imperial-city/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      4,
+      7
+     ],
+     "images": [
+      {
+       "label": "1",
+       "src": "images/blending-falloff/river/1.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/blending-falloff/river/2.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/blending-falloff/river/3.jpg"
+      },
+      {
+       "label": "2.5 (default)",
+       "src": "images/blending-falloff/river/4.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/blending-falloff/river/5.jpg"
+      },
+      {
+       "label": "4",
+       "src": "images/blending-falloff/river/6.jpg"
+      },
+      {
+       "label": "5",
+       "src": "images/blending-falloff/river/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      4,
+      7
+     ],
+     "images": [
+      {
+       "label": "1",
+       "src": "images/blending-falloff/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/blending-falloff/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/blending-falloff/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "2.5 (default)",
+       "src": "images/blending-falloff/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/blending-falloff/snowy-mountain/5.jpg"
+      },
+      {
+       "label": "4",
+       "src": "images/blending-falloff/snowy-mountain/6.jpg"
+      },
+      {
+       "label": "5",
+       "src": "images/blending-falloff/snowy-mountain/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      4,
+      7
+     ],
+     "images": [
+      {
+       "label": "1",
+       "src": "images/blending-falloff/sunset-hills/1.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/blending-falloff/sunset-hills/2.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/blending-falloff/sunset-hills/3.jpg"
+      },
+      {
+       "label": "2.5 (default)",
+       "src": "images/blending-falloff/sunset-hills/4.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/blending-falloff/sunset-hills/5.jpg"
+      },
+      {
+       "label": "4",
+       "src": "images/blending-falloff/sunset-hills/6.jpg"
+      },
+      {
+       "label": "5",
+       "src": "images/blending-falloff/sunset-hills/7.jpg"
+      }
+     ]
+    }
+   ],
+   "main_view": "snowy-mountain"
+  },
+  {
+   "slug": "ambient-occlusion",
+   "title": "Ambient occlusion",
+   "description": "Ambient occlusion off and on: darkens valleys and crevices.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "AO off (default)",
+       "src": "images/ambient-occlusion/hills/1.jpg"
+      },
+      {
+       "label": "AO on, strength 1",
+       "src": "images/ambient-occlusion/hills/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "AO off (default)",
+       "src": "images/ambient-occlusion/imperial-city/1.jpg"
+      },
+      {
+       "label": "AO on, strength 1",
+       "src": "images/ambient-occlusion/imperial-city/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "AO off (default)",
+       "src": "images/ambient-occlusion/river/1.jpg"
+      },
+      {
+       "label": "AO on, strength 1",
+       "src": "images/ambient-occlusion/river/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "AO off (default)",
+       "src": "images/ambient-occlusion/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "AO on, strength 1",
+       "src": "images/ambient-occlusion/snowy-mountain/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "AO off (default)",
+       "src": "images/ambient-occlusion/sunset-hills/1.jpg"
+      },
+      {
+       "label": "AO on, strength 1",
+       "src": "images/ambient-occlusion/sunset-hills/2.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "stochastic-tiling",
+   "title": "Stochastic tiling",
+   "description": "Color map 8192 with plain grid tiling and with stochastic tiling. The plain grid's repetition shows best from a distance.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      2,
+      1
+     ],
+     "images": [
+      {
+       "label": "Stochastic tiling (default)",
+       "src": "images/stochastic-tiling/hills/1.jpg"
+      },
+      {
+       "label": "Plain grid tiling",
+       "src": "images/stochastic-tiling/hills/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      2,
+      1
+     ],
+     "images": [
+      {
+       "label": "Stochastic tiling (default)",
+       "src": "images/stochastic-tiling/imperial-city/1.jpg"
+      },
+      {
+       "label": "Plain grid tiling",
+       "src": "images/stochastic-tiling/imperial-city/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      2,
+      1
+     ],
+     "images": [
+      {
+       "label": "Stochastic tiling (default)",
+       "src": "images/stochastic-tiling/river/1.jpg"
+      },
+      {
+       "label": "Plain grid tiling",
+       "src": "images/stochastic-tiling/river/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      2,
+      1
+     ],
+     "images": [
+      {
+       "label": "Stochastic tiling (default)",
+       "src": "images/stochastic-tiling/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "Plain grid tiling",
+       "src": "images/stochastic-tiling/snowy-mountain/2.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      2,
+      1
+     ],
+     "images": [
+      {
+       "label": "Stochastic tiling (default)",
+       "src": "images/stochastic-tiling/sunset-hills/1.jpg"
+      },
+      {
+       "label": "Plain grid tiling",
+       "src": "images/stochastic-tiling/sunset-hills/2.jpg"
+      }
+     ]
+    }
+   ],
+   "main_view": "sunset-hills"
+  },
+  {
+   "slug": "normal-maps",
+   "title": "Normal maps",
+   "description": "Vanilla and tes4ll normal maps against slowLandscapeLODGen's at sizes from 512 to 8192.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "Vanilla",
+       "src": "images/normal-maps/hills/1.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/normal-maps/hills/2.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/normal-maps/hills/3.jpg"
+      },
+      {
+       "label": "512",
+       "src": "images/normal-maps/hills/4.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/normal-maps/hills/5.jpg"
+      },
+      {
+       "label": "2048 (default)",
+       "src": "images/normal-maps/hills/6.jpg"
+      },
+      {
+       "label": "4096",
+       "src": "images/normal-maps/hills/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/normal-maps/hills/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "Vanilla",
+       "src": "images/normal-maps/imperial-city/1.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/normal-maps/imperial-city/2.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/normal-maps/imperial-city/3.jpg"
+      },
+      {
+       "label": "512",
+       "src": "images/normal-maps/imperial-city/4.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/normal-maps/imperial-city/5.jpg"
+      },
+      {
+       "label": "2048 (default)",
+       "src": "images/normal-maps/imperial-city/6.jpg"
+      },
+      {
+       "label": "4096",
+       "src": "images/normal-maps/imperial-city/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/normal-maps/imperial-city/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "Vanilla",
+       "src": "images/normal-maps/river/1.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/normal-maps/river/2.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/normal-maps/river/3.jpg"
+      },
+      {
+       "label": "512",
+       "src": "images/normal-maps/river/4.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/normal-maps/river/5.jpg"
+      },
+      {
+       "label": "2048 (default)",
+       "src": "images/normal-maps/river/6.jpg"
+      },
+      {
+       "label": "4096",
+       "src": "images/normal-maps/river/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/normal-maps/river/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "Vanilla",
+       "src": "images/normal-maps/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/normal-maps/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/normal-maps/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "512",
+       "src": "images/normal-maps/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/normal-maps/snowy-mountain/5.jpg"
+      },
+      {
+       "label": "2048 (default)",
+       "src": "images/normal-maps/snowy-mountain/6.jpg"
+      },
+      {
+       "label": "4096",
+       "src": "images/normal-maps/snowy-mountain/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/normal-maps/snowy-mountain/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "Vanilla",
+       "src": "images/normal-maps/sunset-hills/1.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/normal-maps/sunset-hills/2.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/normal-maps/sunset-hills/3.jpg"
+      },
+      {
+       "label": "512",
+       "src": "images/normal-maps/sunset-hills/4.jpg"
+      },
+      {
+       "label": "1024",
+       "src": "images/normal-maps/sunset-hills/5.jpg"
+      },
+      {
+       "label": "2048 (default)",
+       "src": "images/normal-maps/sunset-hills/6.jpg"
+      },
+      {
+       "label": "4096",
+       "src": "images/normal-maps/sunset-hills/7.jpg"
+      },
+      {
+       "label": "8192",
+       "src": "images/normal-maps/sunset-hills/8.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "normal-map-format",
+   "title": "Normal map format",
+   "description": "Normal maps compressed (DXT1, the default) and uncompressed, at 2048 and 4096.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "2048 DXT1 (default)",
+       "src": "images/normal-map-format/hills/1.jpg"
+      },
+      {
+       "label": "2048 uncompressed",
+       "src": "images/normal-map-format/hills/2.jpg"
+      },
+      {
+       "label": "4096 DXT1",
+       "src": "images/normal-map-format/hills/3.jpg"
+      },
+      {
+       "label": "4096 uncompressed",
+       "src": "images/normal-map-format/hills/4.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "2048 DXT1 (default)",
+       "src": "images/normal-map-format/imperial-city/1.jpg"
+      },
+      {
+       "label": "2048 uncompressed",
+       "src": "images/normal-map-format/imperial-city/2.jpg"
+      },
+      {
+       "label": "4096 DXT1",
+       "src": "images/normal-map-format/imperial-city/3.jpg"
+      },
+      {
+       "label": "4096 uncompressed",
+       "src": "images/normal-map-format/imperial-city/4.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "2048 DXT1 (default)",
+       "src": "images/normal-map-format/river/1.jpg"
+      },
+      {
+       "label": "2048 uncompressed",
+       "src": "images/normal-map-format/river/2.jpg"
+      },
+      {
+       "label": "4096 DXT1",
+       "src": "images/normal-map-format/river/3.jpg"
+      },
+      {
+       "label": "4096 uncompressed",
+       "src": "images/normal-map-format/river/4.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "2048 DXT1 (default)",
+       "src": "images/normal-map-format/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "2048 uncompressed",
+       "src": "images/normal-map-format/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "4096 DXT1",
+       "src": "images/normal-map-format/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "4096 uncompressed",
+       "src": "images/normal-map-format/snowy-mountain/4.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      2
+     ],
+     "images": [
+      {
+       "label": "2048 DXT1 (default)",
+       "src": "images/normal-map-format/sunset-hills/1.jpg"
+      },
+      {
+       "label": "2048 uncompressed",
+       "src": "images/normal-map-format/sunset-hills/2.jpg"
+      },
+      {
+       "label": "4096 DXT1",
+       "src": "images/normal-map-format/sunset-hills/3.jpg"
+      },
+      {
+       "label": "4096 uncompressed",
+       "src": "images/normal-map-format/sunset-hills/4.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "z-boost",
+   "title": "Z-boost",
+   "description": "How strongly the relief shows in the lighting, from 0.5 to 3, with tes4ll's normal maps for reference.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      2,
+      5
+     ],
+     "images": [
+      {
+       "label": "0.5",
+       "src": "images/z-boost/hills/1.jpg"
+      },
+      {
+       "label": "1.0 (default)",
+       "src": "images/z-boost/hills/2.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/z-boost/hills/3.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/z-boost/hills/4.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/z-boost/hills/5.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/z-boost/hills/6.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/z-boost/hills/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      2,
+      5
+     ],
+     "images": [
+      {
+       "label": "0.5",
+       "src": "images/z-boost/imperial-city/1.jpg"
+      },
+      {
+       "label": "1.0 (default)",
+       "src": "images/z-boost/imperial-city/2.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/z-boost/imperial-city/3.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/z-boost/imperial-city/4.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/z-boost/imperial-city/5.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/z-boost/imperial-city/6.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/z-boost/imperial-city/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      2,
+      5
+     ],
+     "images": [
+      {
+       "label": "0.5",
+       "src": "images/z-boost/river/1.jpg"
+      },
+      {
+       "label": "1.0 (default)",
+       "src": "images/z-boost/river/2.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/z-boost/river/3.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/z-boost/river/4.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/z-boost/river/5.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/z-boost/river/6.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/z-boost/river/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      2,
+      5
+     ],
+     "images": [
+      {
+       "label": "0.5",
+       "src": "images/z-boost/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "1.0 (default)",
+       "src": "images/z-boost/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/z-boost/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/z-boost/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/z-boost/snowy-mountain/5.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/z-boost/snowy-mountain/6.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/z-boost/snowy-mountain/7.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      2,
+      5
+     ],
+     "images": [
+      {
+       "label": "0.5",
+       "src": "images/z-boost/sunset-hills/1.jpg"
+      },
+      {
+       "label": "1.0 (default)",
+       "src": "images/z-boost/sunset-hills/2.jpg"
+      },
+      {
+       "label": "tes4ll z1",
+       "src": "images/z-boost/sunset-hills/3.jpg"
+      },
+      {
+       "label": "1.5",
+       "src": "images/z-boost/sunset-hills/4.jpg"
+      },
+      {
+       "label": "2",
+       "src": "images/z-boost/sunset-hills/5.jpg"
+      },
+      {
+       "label": "tes4ll z2",
+       "src": "images/z-boost/sunset-hills/6.jpg"
+      },
+      {
+       "label": "3",
+       "src": "images/z-boost/sunset-hills/7.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "fake-shadows",
+   "title": "Fake shadows",
+   "description": "Normal maps without fake shadows, at strengths 0.5, 1.0 and 2.0, and tes4ll's fake shadows for reference.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/fake-shadows/hills/1.jpg"
+      },
+      {
+       "label": "Strength 0.5",
+       "src": "images/fake-shadows/hills/2.jpg"
+      },
+      {
+       "label": "Strength 1.0",
+       "src": "images/fake-shadows/hills/3.jpg"
+      },
+      {
+       "label": "Strength 2.0",
+       "src": "images/fake-shadows/hills/4.jpg"
+      },
+      {
+       "label": "tes4ll fake shadows",
+       "src": "images/fake-shadows/hills/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/fake-shadows/imperial-city/1.jpg"
+      },
+      {
+       "label": "Strength 0.5",
+       "src": "images/fake-shadows/imperial-city/2.jpg"
+      },
+      {
+       "label": "Strength 1.0",
+       "src": "images/fake-shadows/imperial-city/3.jpg"
+      },
+      {
+       "label": "Strength 2.0",
+       "src": "images/fake-shadows/imperial-city/4.jpg"
+      },
+      {
+       "label": "tes4ll fake shadows",
+       "src": "images/fake-shadows/imperial-city/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/fake-shadows/river/1.jpg"
+      },
+      {
+       "label": "Strength 0.5",
+       "src": "images/fake-shadows/river/2.jpg"
+      },
+      {
+       "label": "Strength 1.0",
+       "src": "images/fake-shadows/river/3.jpg"
+      },
+      {
+       "label": "Strength 2.0",
+       "src": "images/fake-shadows/river/4.jpg"
+      },
+      {
+       "label": "tes4ll fake shadows",
+       "src": "images/fake-shadows/river/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/fake-shadows/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "Strength 0.5",
+       "src": "images/fake-shadows/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "Strength 1.0",
+       "src": "images/fake-shadows/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "Strength 2.0",
+       "src": "images/fake-shadows/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "tes4ll fake shadows",
+       "src": "images/fake-shadows/snowy-mountain/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/fake-shadows/sunset-hills/1.jpg"
+      },
+      {
+       "label": "Strength 0.5",
+       "src": "images/fake-shadows/sunset-hills/2.jpg"
+      },
+      {
+       "label": "Strength 1.0",
+       "src": "images/fake-shadows/sunset-hills/3.jpg"
+      },
+      {
+       "label": "Strength 2.0",
+       "src": "images/fake-shadows/sunset-hills/4.jpg"
+      },
+      {
+       "label": "tes4ll fake shadows",
+       "src": "images/fake-shadows/sunset-hills/5.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "detail-noise",
+   "title": "Detail noise",
+   "description": "Procedural bumps added to the normal maps (normal map 4096), at intensity 4 and 8 and at two feature sizes.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      4
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/detail-noise/hills/1.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 20",
+       "src": "images/detail-noise/hills/2.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 10",
+       "src": "images/detail-noise/hills/3.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 20",
+       "src": "images/detail-noise/hills/4.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 10",
+       "src": "images/detail-noise/hills/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      4
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/detail-noise/imperial-city/1.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 20",
+       "src": "images/detail-noise/imperial-city/2.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 10",
+       "src": "images/detail-noise/imperial-city/3.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 20",
+       "src": "images/detail-noise/imperial-city/4.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 10",
+       "src": "images/detail-noise/imperial-city/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      4
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/detail-noise/river/1.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 20",
+       "src": "images/detail-noise/river/2.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 10",
+       "src": "images/detail-noise/river/3.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 20",
+       "src": "images/detail-noise/river/4.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 10",
+       "src": "images/detail-noise/river/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      4
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/detail-noise/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 20",
+       "src": "images/detail-noise/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 10",
+       "src": "images/detail-noise/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 20",
+       "src": "images/detail-noise/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 10",
+       "src": "images/detail-noise/snowy-mountain/5.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      4
+     ],
+     "images": [
+      {
+       "label": "Off (default)",
+       "src": "images/detail-noise/sunset-hills/1.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 20",
+       "src": "images/detail-noise/sunset-hills/2.jpg"
+      },
+      {
+       "label": "Intensity 4, scale 10",
+       "src": "images/detail-noise/sunset-hills/3.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 20",
+       "src": "images/detail-noise/sunset-hills/4.jpg"
+      },
+      {
+       "label": "Intensity 8, scale 10",
+       "src": "images/detail-noise/sunset-hills/5.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "detail-noise-format",
+   "title": "Detail noise and normal map size",
+   "description": "Detail noise at intensity 8, scale 20 on normal maps of different sizes and formats.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "2048 uncompressed + noise",
+       "src": "images/detail-noise-format/hills/1.jpg"
+      },
+      {
+       "label": "4096 DXT1 + noise",
+       "src": "images/detail-noise-format/hills/2.jpg"
+      },
+      {
+       "label": "4096 uncompressed + noise",
+       "src": "images/detail-noise-format/hills/3.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "2048 uncompressed + noise",
+       "src": "images/detail-noise-format/imperial-city/1.jpg"
+      },
+      {
+       "label": "4096 DXT1 + noise",
+       "src": "images/detail-noise-format/imperial-city/2.jpg"
+      },
+      {
+       "label": "4096 uncompressed + noise",
+       "src": "images/detail-noise-format/imperial-city/3.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "2048 uncompressed + noise",
+       "src": "images/detail-noise-format/river/1.jpg"
+      },
+      {
+       "label": "4096 DXT1 + noise",
+       "src": "images/detail-noise-format/river/2.jpg"
+      },
+      {
+       "label": "4096 uncompressed + noise",
+       "src": "images/detail-noise-format/river/3.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "2048 uncompressed + noise",
+       "src": "images/detail-noise-format/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "4096 DXT1 + noise",
+       "src": "images/detail-noise-format/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "4096 uncompressed + noise",
+       "src": "images/detail-noise-format/snowy-mountain/3.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      3
+     ],
+     "images": [
+      {
+       "label": "2048 uncompressed + noise",
+       "src": "images/detail-noise-format/sunset-hills/1.jpg"
+      },
+      {
+       "label": "4096 DXT1 + noise",
+       "src": "images/detail-noise-format/sunset-hills/2.jpg"
+      },
+      {
+       "label": "4096 uncompressed + noise",
+       "src": "images/detail-noise-format/sunset-hills/3.jpg"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "mesh-triangles",
+   "title": "Mesh triangle count",
+   "description": "Triangles per quad from 4,000 to 60,000, all with peak weighting, and tes4ll's mesh for reference. Differences show on ridges against the sky.",
+   "views": [
+    {
+     "slug": "hills",
+     "name": "Hills",
+     "pair": [
+      1,
+      5
+     ],
+     "images": [
+      {
+       "label": "4000",
+       "src": "images/mesh-triangles/hills/1.jpg"
+      },
+      {
+       "label": "16000",
+       "src": "images/mesh-triangles/hills/2.jpg"
+      },
+      {
+       "label": "40000",
+       "src": "images/mesh-triangles/hills/4.jpg"
+      },
+      {
+       "label": "50000",
+       "src": "images/mesh-triangles/hills/5.jpg"
+      },
+      {
+       "label": "60000",
+       "src": "images/mesh-triangles/hills/6.jpg"
+      },
+      {
+       "label": "tes4ll (ultimate)",
+       "src": "images/mesh-triangles/hills/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "imperial-city",
+     "name": "Imperial city",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "4000",
+       "src": "images/mesh-triangles/imperial-city/1.jpg"
+      },
+      {
+       "label": "16000",
+       "src": "images/mesh-triangles/imperial-city/2.jpg"
+      },
+      {
+       "label": "32000",
+       "src": "images/mesh-triangles/imperial-city/3.jpg"
+      },
+      {
+       "label": "40000",
+       "src": "images/mesh-triangles/imperial-city/4.jpg"
+      },
+      {
+       "label": "50000",
+       "src": "images/mesh-triangles/imperial-city/5.jpg"
+      },
+      {
+       "label": "60000",
+       "src": "images/mesh-triangles/imperial-city/6.jpg"
+      },
+      {
+       "label": "tes4ll (ultimate)",
+       "src": "images/mesh-triangles/imperial-city/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "river",
+     "name": "River",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "4000",
+       "src": "images/mesh-triangles/river/1.jpg"
+      },
+      {
+       "label": "16000",
+       "src": "images/mesh-triangles/river/2.jpg"
+      },
+      {
+       "label": "32000",
+       "src": "images/mesh-triangles/river/3.jpg"
+      },
+      {
+       "label": "40000",
+       "src": "images/mesh-triangles/river/4.jpg"
+      },
+      {
+       "label": "50000",
+       "src": "images/mesh-triangles/river/5.jpg"
+      },
+      {
+       "label": "60000",
+       "src": "images/mesh-triangles/river/6.jpg"
+      },
+      {
+       "label": "tes4ll (ultimate)",
+       "src": "images/mesh-triangles/river/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "snowy-mountain",
+     "name": "Snowy mountain",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "4000",
+       "src": "images/mesh-triangles/snowy-mountain/1.jpg"
+      },
+      {
+       "label": "16000",
+       "src": "images/mesh-triangles/snowy-mountain/2.jpg"
+      },
+      {
+       "label": "32000",
+       "src": "images/mesh-triangles/snowy-mountain/3.jpg"
+      },
+      {
+       "label": "40000",
+       "src": "images/mesh-triangles/snowy-mountain/4.jpg"
+      },
+      {
+       "label": "50000",
+       "src": "images/mesh-triangles/snowy-mountain/5.jpg"
+      },
+      {
+       "label": "60000",
+       "src": "images/mesh-triangles/snowy-mountain/6.jpg"
+      },
+      {
+       "label": "tes4ll (ultimate)",
+       "src": "images/mesh-triangles/snowy-mountain/8.jpg"
+      }
+     ]
+    },
+    {
+     "slug": "sunset-hills",
+     "name": "Sunset hills",
+     "pair": [
+      1,
+      6
+     ],
+     "images": [
+      {
+       "label": "4000",
+       "src": "images/mesh-triangles/sunset-hills/1.jpg"
+      },
+      {
+       "label": "16000",
+       "src": "images/mesh-triangles/sunset-hills/2.jpg"
+      },
+      {
+       "label": "32000",
+       "src": "images/mesh-triangles/sunset-hills/3.jpg"
+      },
+      {
+       "label": "40000",
+       "src": "images/mesh-triangles/sunset-hills/4.jpg"
+      },
+      {
+       "label": "50000",
+       "src": "images/mesh-triangles/sunset-hills/5.jpg"
+      },
+      {
+       "label": "60000",
+       "src": "images/mesh-triangles/sunset-hills/6.jpg"
+      },
+      {
+       "label": "tes4ll (ultimate)",
+       "src": "images/mesh-triangles/sunset-hills/8.jpg"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

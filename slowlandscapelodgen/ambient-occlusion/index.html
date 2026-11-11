@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>slowLandscapeLODGen | Ambient occlusion</title>
+<meta name="description" content="Ambient occlusion off and on: darkens valleys and crevices.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="slowLandscapeLODGen | Ambient occlusion">
+<meta property="og:description" content="Ambient occlusion off and on: darkens valleys and crevices.">
+<meta property="og:image" content="https://slowpard.github.io/slowmods-imgcomparisons/slowlandscapelodgen/previews/ambient-occlusion.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/compare.css">
+</head>
+<body data-root="../">
+<main>
+<header>
+<h1>Ambient occlusion</h1>
+<p>Ambient occlusion off and on: darkens valleys and crevices.</p>
+</header>
+<nav id="views"></nav>
+<div class="controls">
+<label for="left">Left</label><select id="left"></select>
+<label for="right">Right</label><select id="right"></select>
+<span class="spacer"></span>
+<button id="full">Full screen</button>
+</div>
+<div id="wrap">
+<div id="viewer"></div>
+<div id="line" hidden></div>
+<span class="lab" id="labA"></span><span class="lab" id="labB"></span>
+<button id="exitfull">Exit full screen</button>
+</div>
+<p class="hint">Move the mouse over the image to compare (on touch screens, drag the line). Scroll or pinch to zoom, drag to
+pan. Keys <kbd>1</kbd>&ndash;<kbd>2</kbd> show one image on its own, <kbd>0</kbd> goes back.</p>
+</main>
+<script id="data" type="application/json">{"main_view": null, "views": [{"slug": "hills", "name": "Hills", "pair": [1, 2], "images": [{"label": "AO off (default)", "src": "images/ambient-occlusion/hills/1.jpg"}, {"label": "AO on, strength 1", "src": "images/ambient-occlusion/hills/2.jpg"}]}, {"slug": "imperial-city", "name": "Imperial city", "pair": [1, 2], "images": [{"label": "AO off (default)", "src": "images/ambient-occlusion/imperial-city/1.jpg"}, {"label": "AO on, strength 1", "src": "images/ambient-occlusion/imperial-city/2.jpg"}]}, {"slug": "river", "name": "River", "pair": [1, 2], "images": [{"label": "AO off (default)", "src": "images/ambient-occlusion/river/1.jpg"}, {"label": "AO on, strength 1", "src": "images/ambient-occlusion/river/2.jpg"}]}, {"slug": "snowy-mountain", "name": "Snowy mountain", "pair": [1, 2], "images": [{"label": "AO off (default)", "src": "images/ambient-occlusion/snowy-mountain/1.jpg"}, {"label": "AO on, strength 1", "src": "images/ambient-occlusion/snowy-mountain/2.jpg"}]}, {"slug": "sunset-hills", "name": "Sunset hills", "pair": [1, 2], "images": [{"label": "AO off (default)", "src": "images/ambient-occlusion/sunset-hills/1.jpg"}, {"label": "AO on, strength 1", "src": "images/ambient-occlusion/sunset-hills/2.jpg"}]}]}</script>
+<script src="../../assets/vendor/openseadragon/openseadragon.min.js"></script>
+<script src="../../assets/vendor/curtain-sync/openseadragon-curtain-sync.js"></script>
+<script src="../../assets/compare.js"></script>
+</body>
+</html>

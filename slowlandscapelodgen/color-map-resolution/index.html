@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>slowLandscapeLODGen | Color map resolution</title>
+<meta name="description" content="Color map size per quad, from 512 to 16384, with tes4ll&#x27;s color maps at 1024, 2048 and 4096 for reference.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="slowLandscapeLODGen | Color map resolution">
+<meta property="og:description" content="Color map size per quad, from 512 to 16384, with tes4ll&#x27;s color maps at 1024, 2048 and 4096 for reference.">
+<meta property="og:image" content="https://slowpard.github.io/slowmods-imgcomparisons/slowlandscapelodgen/previews/color-map-resolution.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/compare.css">
+</head>
+<body data-root="../">
+<main>
+<header>
+<h1>Color map resolution</h1>
+<p>Color map size per quad, from 512 to 16384, with tes4ll&#x27;s color maps at 1024, 2048 and 4096 for reference.</p>
+</header>
+<nav id="views"></nav>
+<div class="controls">
+<label for="left">Left</label><select id="left"></select>
+<label for="right">Right</label><select id="right"></select>
+<span class="spacer"></span>
+<button id="full">Full screen</button>
+</div>
+<div id="wrap">
+<div id="viewer"></div>
+<div id="line" hidden></div>
+<span class="lab" id="labA"></span><span class="lab" id="labB"></span>
+<button id="exitfull">Exit full screen</button>
+</div>
+<p class="hint">Move the mouse over the image to compare (on touch screens, drag the line). Scroll or pinch to zoom, drag to
+pan. Keys <kbd>1</kbd>&ndash;<kbd>9</kbd> show one image on its own, <kbd>0</kbd> goes back.</p>
+</main>
+<script id="data" type="application/json">{"main_view": null, "views": [{"slug": "hills", "name": "Hills", "pair": [4, 6], "images": [{"label": "512", "src": "images/color-map-resolution/hills/1.jpg"}, {"label": "1024", "src": "images/color-map-resolution/hills/2.jpg"}, {"label": "tes4ll 1024", "src": "images/color-map-resolution/hills/3.jpg"}, {"label": "2048", "src": "images/color-map-resolution/hills/4.jpg"}, {"label": "tes4ll 2048", "src": "images/color-map-resolution/hills/5.jpg"}, {"label": "4096 (default)", "src": "images/color-map-resolution/hills/6.jpg"}, {"label": "tes4ll 4096", "src": "images/color-map-resolution/hills/7.jpg"}, {"label": "8192", "src": "images/color-map-resolution/hills/8.jpg"}, {"label": "16384", "src": "images/color-map-resolution/hills/9.jpg"}]}, {"slug": "imperial-city", "name": "Imperial city", "pair": [4, 6], "images": [{"label": "512", "src": "images/color-map-resolution/imperial-city/1.jpg"}, {"label": "1024", "src": "images/color-map-resolution/imperial-city/2.jpg"}, {"label": "tes4ll 1024", "src": "images/color-map-resolution/imperial-city/3.jpg"}, {"label": "2048", "src": "images/color-map-resolution/imperial-city/4.jpg"}, {"label": "tes4ll 2048", "src": "images/color-map-resolution/imperial-city/5.jpg"}, {"label": "4096 (default)", "src": "images/color-map-resolution/imperial-city/6.jpg"}, {"label": "tes4ll 4096", "src": "images/color-map-resolution/imperial-city/7.jpg"}, {"label": "8192", "src": "images/color-map-resolution/imperial-city/8.jpg"}, {"label": "16384", "src": "images/color-map-resolution/imperial-city/9.jpg"}]}, {"slug": "river", "name": "River", "pair": [4, 6], "images": [{"label": "512", "src": "images/color-map-resolution/river/1.jpg"}, {"label": "1024", "src": "images/color-map-resolution/river/2.jpg"}, {"label": "tes4ll 1024", "src": "images/color-map-resolution/river/3.jpg"}, {"label": "2048", "src": "images/color-map-resolution/river/4.jpg"}, {"label": "tes4ll 2048", "src": "images/color-map-resolution/river/5.jpg"}, {"label": "4096 (default)", "src": "images/color-map-resolution/river/6.jpg"}, {"label": "tes4ll 4096", "src": "images/color-map-resolution/river/7.jpg"}, {"label": "8192", "src": "images/color-map-resolution/river/8.jpg"}, {"label": "16384", "src": "images/color-map-resolution/river/9.jpg"}]}, {"slug": "snowy-mountain", "name": "Snowy mountain", "pair": [4, 6], "images": [{"label": "512", "src": "images/color-map-resolution/snowy-mountain/1.jpg"}, {"label": "1024", "src": "images/color-map-resolution/snowy-mountain/2.jpg"}, {"label": "tes4ll 1024", "src": "images/color-map-resolution/snowy-mountain/3.jpg"}, {"label": "2048", "src": "images/color-map-resolution/snowy-mountain/4.jpg"}, {"label": "tes4ll 2048", "src": "images/color-map-resolution/snowy-mountain/5.jpg"}, {"label": "4096 (default)", "src": "images/color-map-resolution/snowy-mountain/6.jpg"}, {"label": "tes4ll 4096", "src": "images/color-map-resolution/snowy-mountain/7.jpg"}, {"label": "8192", "src": "images/color-map-resolution/snowy-mountain/8.jpg"}, {"label": "16384", "src": "images/color-map-resolution/snowy-mountain/9.jpg"}]}, {"slug": "sunset-hills", "name": "Sunset hills", "pair": [4, 6], "images": [{"label": "512", "src": "images/color-map-resolution/sunset-hills/1.jpg"}, {"label": "1024", "src": "images/color-map-resolution/sunset-hills/2.jpg"}, {"label": "tes4ll 1024", "src": "images/color-map-resolution/sunset-hills/3.jpg"}, {"label": "2048", "src": "images/color-map-resolution/sunset-hills/4.jpg"}, {"label": "tes4ll 2048", "src": "images/color-map-resolution/sunset-hills/5.jpg"}, {"label": "4096 (default)", "src": "images/color-map-resolution/sunset-hills/6.jpg"}, {"label": "tes4ll 4096", "src": "images/color-map-resolution/sunset-hills/7.jpg"}, {"label": "8192", "src": "images/color-map-resolution/sunset-hills/8.jpg"}, {"label": "16384", "src": "images/color-map-resolution/sunset-hills/9.jpg"}]}]}</script>
+<script src="../../assets/vendor/openseadragon/openseadragon.min.js"></script>
+<script src="../../assets/vendor/curtain-sync/openseadragon-curtain-sync.js"></script>
+<script src="../../assets/compare.js"></script>
+</body>
+</html>

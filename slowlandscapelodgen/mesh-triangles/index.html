@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>slowLandscapeLODGen | Mesh triangle count</title>
+<meta name="description" content="Triangles per quad from 4,000 to 60,000, all with peak weighting, and tes4ll&#x27;s mesh for reference. Differences show on ridges against the sky.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="slowLandscapeLODGen | Mesh triangle count">
+<meta property="og:description" content="Triangles per quad from 4,000 to 60,000, all with peak weighting, and tes4ll&#x27;s mesh for reference. Differences show on ridges against the sky.">
+<meta property="og:image" content="https://slowpard.github.io/slowmods-imgcomparisons/slowlandscapelodgen/previews/mesh-triangles.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/compare.css">
+</head>
+<body data-root="../">
+<main>
+<header>
+<h1>Mesh triangle count</h1>
+<p>Triangles per quad from 4,000 to 60,000, all with peak weighting, and tes4ll&#x27;s mesh for reference. Differences show on ridges against the sky.</p>
+</header>
+<nav id="views"></nav>
+<div class="controls">
+<label for="left">Left</label><select id="left"></select>
+<label for="right">Right</label><select id="right"></select>
+<span class="spacer"></span>
+<button id="full">Full screen</button>
+</div>
+<div id="wrap">
+<div id="viewer"></div>
+<div id="line" hidden></div>
+<span class="lab" id="labA"></span><span class="lab" id="labB"></span>
+<button id="exitfull">Exit full screen</button>
+</div>
+<p class="hint">Move the mouse over the image to compare (on touch screens, drag the line). Scroll or pinch to zoom, drag to
+pan. Keys <kbd>1</kbd>&ndash;<kbd>7</kbd> show one image on its own, <kbd>0</kbd> goes back.</p>
+</main>
+<script id="data" type="application/json">{"main_view": null, "views": [{"slug": "hills", "name": "Hills", "pair": [1, 5], "images": [{"label": "4000", "src": "images/mesh-triangles/hills/1.jpg"}, {"label": "16000", "src": "images/mesh-triangles/hills/2.jpg"}, {"label": "40000", "src": "images/mesh-triangles/hills/4.jpg"}, {"label": "50000", "src": "images/mesh-triangles/hills/5.jpg"}, {"label": "60000", "src": "images/mesh-triangles/hills/6.jpg"}, {"label": "tes4ll (ultimate)", "src": "images/mesh-triangles/hills/8.jpg"}]}, {"slug": "imperial-city", "name": "Imperial city", "pair": [1, 6], "images": [{"label": "4000", "src": "images/mesh-triangles/imperial-city/1.jpg"}, {"label": "16000", "src": "images/mesh-triangles/imperial-city/2.jpg"}, {"label": "32000", "src": "images/mesh-triangles/imperial-city/3.jpg"}, {"label": "40000", "src": "images/mesh-triangles/imperial-city/4.jpg"}, {"label": "50000", "src": "images/mesh-triangles/imperial-city/5.jpg"}, {"label": "60000", "src": "images/mesh-triangles/imperial-city/6.jpg"}, {"label": "tes4ll (ultimate)", "src": "images/mesh-triangles/imperial-city/8.jpg"}]}, {"slug": "river", "name": "River", "pair": [1, 6], "images": [{"label": "4000", "src": "images/mesh-triangles/river/1.jpg"}, {"label": "16000", "src": "images/mesh-triangles/river/2.jpg"}, {"label": "32000", "src": "images/mesh-triangles/river/3.jpg"}, {"label": "40000", "src": "images/mesh-triangles/river/4.jpg"}, {"label": "50000", "src": "images/mesh-triangles/river/5.jpg"}, {"label": "60000", "src": "images/mesh-triangles/river/6.jpg"}, {"label": "tes4ll (ultimate)", "src": "images/mesh-triangles/river/8.jpg"}]}, {"slug": "snowy-mountain", "name": "Snowy mountain", "pair": [1, 6], "images": [{"label": "4000", "src": "images/mesh-triangles/snowy-mountain/1.jpg"}, {"label": "16000", "src": "images/mesh-triangles/snowy-mountain/2.jpg"}, {"label": "32000", "src": "images/mesh-triangles/snowy-mountain/3.jpg"}, {"label": "40000", "src": "images/mesh-triangles/snowy-mountain/4.jpg"}, {"label": "50000", "src": "images/mesh-triangles/snowy-mountain/5.jpg"}, {"label": "60000", "src": "images/mesh-triangles/snowy-mountain/6.jpg"}, {"label": "tes4ll (ultimate)", "src": "images/mesh-triangles/snowy-mountain/8.jpg"}]}, {"slug": "sunset-hills", "name": "Sunset hills", "pair": [1, 6], "images": [{"label": "4000", "src": "images/mesh-triangles/sunset-hills/1.jpg"}, {"label": "16000", "src": "images/mesh-triangles/sunset-hills/2.jpg"}, {"label": "32000", "src": "images/mesh-triangles/sunset-hills/3.jpg"}, {"label": "40000", "src": "images/mesh-triangles/sunset-hills/4.jpg"}, {"label": "50000", "src": "images/mesh-triangles/sunset-hills/5.jpg"}, {"label": "60000", "src": "images/mesh-triangles/sunset-hills/6.jpg"}, {"label": "tes4ll (ultimate)", "src": "images/mesh-triangles/sunset-hills/8.jpg"}]}]}</script>
+<script src="../../assets/vendor/openseadragon/openseadragon.min.js"></script>
+<script src="../../assets/vendor/curtain-sync/openseadragon-curtain-sync.js"></script>
+<script src="../../assets/compare.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>slowLandscapeLODGen | Detail noise</title>
+<meta name="description" content="Procedural bumps added to the normal maps (normal map 4096), at intensity 4 and 8 and at two feature sizes.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="slowLandscapeLODGen | Detail noise">
+<meta property="og:description" content="Procedural bumps added to the normal maps (normal map 4096), at intensity 4 and 8 and at two feature sizes.">
+<meta property="og:image" content="https://slowpard.github.io/slowmods-imgcomparisons/slowlandscapelodgen/previews/detail-noise.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/compare.css">
+</head>
+<body data-root="../">
+<main>
+<header>
+<h1>Detail noise</h1>
+<p>Procedural bumps added to the normal maps (normal map 4096), at intensity 4 and 8 and at two feature sizes.</p>
+</header>
+<nav id="views"></nav>
+<div class="controls">
+<label for="left">Left</label><select id="left"></select>
+<label for="right">Right</label><select id="right"></select>
+<span class="spacer"></span>
+<button id="full">Full screen</button>
+</div>
+<div id="wrap">
+<div id="viewer"></div>
+<div id="line" hidden></div>
+<span class="lab" id="labA"></span><span class="lab" id="labB"></span>
+<button id="exitfull">Exit full screen</button>
+</div>
+<p class="hint">Move the mouse over the image to compare (on touch screens, drag the line). Scroll or pinch to zoom, drag to
+pan. Keys <kbd>1</kbd>&ndash;<kbd>5</kbd> show one image on its own, <kbd>0</kbd> goes back.</p>
+</main>
+<script id="data" type="application/json">{"main_view": null, "views": [{"slug": "hills", "name": "Hills", "pair": [1, 4], "images": [{"label": "Off (default)", "src": "images/detail-noise/hills/1.jpg"}, {"label": "Intensity 4, scale 20", "src": "images/detail-noise/hills/2.jpg"}, {"label": "Intensity 4, scale 10", "src": "images/detail-noise/hills/3.jpg"}, {"label": "Intensity 8, scale 20", "src": "images/detail-noise/hills/4.jpg"}, {"label": "Intensity 8, scale 10", "src": "images/detail-noise/hills/5.jpg"}]}, {"slug": "imperial-city", "name": "Imperial city", "pair": [1, 4], "images": [{"label": "Off (default)", "src": "images/detail-noise/imperial-city/1.jpg"}, {"label": "Intensity 4, scale 20", "src": "images/detail-noise/imperial-city/2.jpg"}, {"label": "Intensity 4, scale 10", "src": "images/detail-noise/imperial-city/3.jpg"}, {"label": "Intensity 8, scale 20", "src": "images/detail-noise/imperial-city/4.jpg"}, {"label": "Intensity 8, scale 10", "src": "images/detail-noise/imperial-city/5.jpg"}]}, {"slug": "river", "name": "River", "pair": [1, 4], "images": [{"label": "Off (default)", "src": "images/detail-noise/river/1.jpg"}, {"label": "Intensity 4, scale 20", "src": "images/detail-noise/river/2.jpg"}, {"label": "Intensity 4, scale 10", "src": "images/detail-noise/river/3.jpg"}, {"label": "Intensity 8, scale 20", "src": "images/detail-noise/river/4.jpg"}, {"label": "Intensity 8, scale 10", "src": "images/detail-noise/river/5.jpg"}]}, {"slug": "snowy-mountain", "name": "Snowy mountain", "pair": [1, 4], "images": [{"label": "Off (default)", "src": "images/detail-noise/snowy-mountain/1.jpg"}, {"label": "Intensity 4, scale 20", "src": "images/detail-noise/snowy-mountain/2.jpg"}, {"label": "Intensity 4, scale 10", "src": "images/detail-noise/snowy-mountain/3.jpg"}, {"label": "Intensity 8, scale 20", "src": "images/detail-noise/snowy-mountain/4.jpg"}, {"label": "Intensity 8, scale 10", "src": "images/detail-noise/snowy-mountain/5.jpg"}]}, {"slug": "sunset-hills", "name": "Sunset hills", "pair": [1, 4], "images": [{"label": "Off (default)", "src": "images/detail-noise/sunset-hills/1.jpg"}, {"label": "Intensity 4, scale 20", "src": "images/detail-noise/sunset-hills/2.jpg"}, {"label": "Intensity 4, scale 10", "src": "images/detail-noise/sunset-hills/3.jpg"}, {"label": "Intensity 8, scale 20", "src": "images/detail-noise/sunset-hills/4.jpg"}, {"label": "Intensity 8, scale 10", "src": "images/detail-noise/sunset-hills/5.jpg"}]}]}</script>
+<script src="../../assets/vendor/openseadragon/openseadragon.min.js"></script>
+<script src="../../assets/vendor/curtain-sync/openseadragon-curtain-sync.js"></script>
+<script src="../../assets/compare.js"></script>
+</body>
+</html>
